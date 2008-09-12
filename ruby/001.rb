@@ -1,0 +1,1 @@
+puts (1..999).select { |v| v % 3 == 0 or v % 5 == 0 }.inject { |a, v| a + v }
